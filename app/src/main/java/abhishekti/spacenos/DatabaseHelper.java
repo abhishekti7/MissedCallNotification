@@ -84,4 +84,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return false;
         }
     }
+
+    public void dropCallRecords(){
+        SQLiteDatabase db = this.getReadableDatabase();
+        db.execSQL("DROP TABLE IF EXISTS "+CALL_TABLE_NAME);
+        db.execSQL("DROP TABLE IF EXISTS "+SMS_TABLE_NAME);
+        onCreate(db);
+    }
 }

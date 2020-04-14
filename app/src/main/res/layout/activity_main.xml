@@ -15,7 +15,7 @@
         android:orientation="vertical"
         android:tag="@string/tag_menu"
         android:backgroundTint="@color/white"
-        app:header="@layout/nav_bar_header"/>
+        app:header="@layout/nav_bar_header" />
 
     <LinearLayout
         android:layout_width="match_parent"
