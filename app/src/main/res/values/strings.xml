@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MissedCallNotification</string>
+
+
+    <array name="menuOptions">
+        <item>Home</item>
+        <item>Call Log</item>
+        <item>Settings</item>
+    </array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spacenos_website">https://spacenos.com/</string>
+    <string name="channel_name">name</string>
+    <string name="channel_description">desc</string>
+</resources>
